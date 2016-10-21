@@ -7,10 +7,16 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/blue"
     tools:context="com.devtx.drabatx.fifapp.SplashScreenActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <ImageView
+        android:tint="@color/white"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo_fif_splash"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
 </RelativeLayout>
