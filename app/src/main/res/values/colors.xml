@@ -17,4 +17,7 @@
     <color name="divider">#BDBDBD</color>
     <color name="gray">#ddd</color>
     <color name="gray2">#eee</color>
+    <color name="stalegray">#ececec</color>
+    <color name="steel">#eee</color>
+    <color name="gray3">#AAA</color>
 </resources>

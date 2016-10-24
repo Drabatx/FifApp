@@ -6,6 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.devtx.drabatx.fifapp.database.Eventos;
+
 import java.util.ArrayList;
 
 /**
@@ -42,16 +44,13 @@ public class EventosAdapter  extends RecyclerView.Adapter<EventosAdapter.Eventos
         public TextView id,hora,ponente,titulo;
         public EventosViewHolder(View itemView) {
             super(itemView);
-
-            id = (TextView)itemView.findViewById(R.id.numElemento);
             hora = (TextView)itemView.findViewById(R.id.horaElement);
             ponente = (TextView)itemView.findViewById(R.id.ponenteElemnt);
             titulo = (TextView)itemView.findViewById(R.id.titleElement);
         }
 
         public void bindEvento(Eventos eventos){
-            id.setText(String.valueOf(eventos.getNumDia()));
-            hora.setText(eventos.getHora());
+            hora.setText(eventos.getHoraInicio());
             ponente.setText(eventos.getWorkshop());
             titulo.setText(eventos.getTitulo());
         }

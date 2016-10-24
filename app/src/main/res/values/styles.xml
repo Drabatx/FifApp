@@ -18,9 +18,11 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.AppBarOverlay"
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="AppTheme.PopupOverlay"
+        parent="ThemeOverlay.AppCompat.Light" />
 
     <style name="textIndice">
         <item name="android:textSize">25sp</item>
@@ -28,7 +30,7 @@
     </style>
 
     <style name="textHrs">
-        <item name="android:textSize">40sp</item>
+        <item name="android:textSize">30sp</item>
         <item name="android:textColor">@color/black</item>
     </style>
 
@@ -41,4 +43,23 @@
         <item name="android:textSize">18sp</item>
         <item name="android:textColor">@color/secondary_text</item>
     </style>
+    <style name="NavigationTab" parent="android:Widget">
+        <item name="android:background">@drawable/rectangulo</item>
+        <item name="tabMaxWidth">120dp</item>
+        <item name="tabIndicatorColor">@color/primary</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabPaddingStart">12dp</item>
+        <item name="tabPaddingEnd">12dp</item>
+        <item name="tabBackground">@drawable/rectangulo</item>
+        <item name="tabTextAppearance">@style/NavigationTabTextAppeareance</item>
+        <item name="tabSelectedTextColor">@color/primary</item>
+    </style>
+
+    <style name="NavigationTabTextAppeareance" parent="@android:style/TextAppearance.Widget.TabWidget">
+
+        <item name="android:textColor">@color/steel</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+
 </resources>
